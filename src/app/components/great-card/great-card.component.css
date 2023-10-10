@@ -1,0 +1,23 @@
+.conatiner_great-card {
+  display: flex;
+  border: 1px solid white;
+}
+
+.block-left-card {
+  padding: 20px;
+  width: 50vw;
+}
+
+.block-rigth-card{
+    padding: 20px;
+      width: 50vw;
+  border: 1px solid white;
+}
+
+.great-card-img > img {
+  width: 100%;
+}
+
+.great-card-title {
+  margin: 8px 0;
+}

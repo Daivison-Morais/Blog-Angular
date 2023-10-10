@@ -1,0 +1,12 @@
+
+.container_menu-bar > ul {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+}
+
+.container_menu-bar> ul > li {
+padding: 6px 8px;
+margin-top: 7px;
+}
