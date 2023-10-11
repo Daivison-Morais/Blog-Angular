@@ -1,21 +1,26 @@
 <div class="conatiner_great-card">
   <div class="block-left-card">
     <div class="great-card-img">
-      <img
-        src="https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q95/wp-content/uploads/2022/02/legiao_JlXCZY6vLN9w.jpg.webp"
-        alt="" srcset="">
+      <img src={{imgCover}} alt="" srcset="">
     </div>
-    <h1 class="great-card-title"><a href="#">Rook lee muito da hora</a></h1>
-    <div class="great-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-      Ipsum has been the industry's standard
-      dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-      specimen
-      book.</div>
-
+    <h1 class="great-card-title"><a [routerLink]="['content', id]">{{title}}</a></h1>
+    <div class="great-card-description"><a [routerLink]="['content', id]">{{description}}</a></div>
   </div>
   <div class="block-rigth-card">
-    <app-informative-card></app-informative-card>
-    <app-informative-card></app-informative-card>
-    <app-informative-card></app-informative-card>
+    <app-informative-card
+      id="1"
+      title="Testano"
+      imgCover="https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q95/wp-content/uploads/2022/02/legiao_JlXCZY6vLN9w.jpg.webp">
+    </app-informative-card>
+    <app-informative-card
+      id="2"
+      title="não sei qual é"
+      imgCover="https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q95/wp-content/uploads/2022/02/legiao_JlXCZY6vLN9w.jpg.webp">
+    </app-informative-card>
+    <app-informative-card
+      id="3"
+      title="não sei qual é"
+      imgCover="https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q95/wp-content/uploads/2022/02/legiao_JlXCZY6vLN9w.jpg.webp">
+    </app-informative-card>
   </div>
 </div>

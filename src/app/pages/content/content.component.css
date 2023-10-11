@@ -1,0 +1,17 @@
+.container_content{
+  padding: 20px;
+}
+
+.content_img{
+width: 100%;
+}
+
+.content_img > img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.content_description{
+margin: 15px 0;
+line-height: 23px;
+}
