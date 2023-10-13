@@ -8,21 +8,32 @@
 .card_rigth-img {
   margin-right: 5px;
   min-width: 100px;
-  max-width: 19vw;
+  max-width: 50%;
 }
 
-.card_rigth-img > img {
+.card_rigth-img>img {
   border-radius: 7px;
   width: 100%;
 }
 
-.container_informative-card > h2 > a {
+.container_informative-card>h2>a {
   font-size: 14px;
 }
-.container_informative-card > h2{
-  padding: 0 6px;
+
+.container_informative-card>h2 {
   line-height: 17px;
   font-size: 14px;
 }
 
+@media (max-width: 890px) {
+  .container_informative-card {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .card_rigth-img {
+    margin-right: 0px;
+    max-width: 100%;
+    width: 100%;
+  }
+}
