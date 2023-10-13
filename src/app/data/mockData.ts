@@ -56,7 +56,7 @@ Então, o que vocês acham, ninjas? Será que Might Guy é realmente o pai de Ro
     main: false,
     summary: `Em uma batalha emocionante, Rock Lee enfrenta Kimimaro. Demonstrando sua determinação e habilidades excepcionais de taijutsu, Lee desafia suas próprias limitações e cria um momento épico que ficará para sempre na memória dos fãs de "Naruto`,
     description: `Ahoy! Preparem-se para uma das batalhas mais épicas de "Naruto"! Em um confronto emocionante, Rock Lee, o mestre da taijutsu, enfrenta Kimimaro, um adversário poderoso. Nesta luta eletrizante, Lee desafia suas próprias limitações, mostrando uma força interior extraordinária e habilidades ninja incríveis.
-    Na arena ninja, Lee e Kimimaro travam uma luta intensa. Kimimaro, com sua agilidade e habilidades especiais, representa um desafio formidável. No entanto, Lee, conhecido por sua incrível determinação e treinamento árduo, não recua diante do perigo. Com movimentos de taijutsu precisos e uma vontade de ferro, Lee surpreende a todos ao enfrentar Kimimaro de igual para igual. A plateia é envolvida pela emoção, enquanto esses dois ninjas extraordinários se confrontam, criando uma das cenas mais memoráveis de "Naruto`,
+    Na arena ninja, Lee e Kimimaro travam uma luta intensa. Kimimaro, com sua agilidade e habilidades especiais, representa um desafio formidável. No entanto, Lee, conhecido por sua incrível determinação e treinamento árduo, não recua diante do perigo. Com movimentos de taijutsu precisos e uma vontade de ferro, Lee surpreende a todos ao enfrentar Kimimaro de igual para igual. A plateia é envolvida pela emoção, enquanto esses dois ninjas extraordinários se confrontam, criando uma das cenas mais memoráveis de "Naruto.`,
   },
   {
     id: 6,

@@ -7,7 +7,6 @@ import { mockData } from '../../data/mockData';
   styleUrls: ['./content.component.css'],
 })
 export class ContentComponent implements OnInit {
-
   imgCover: string = '';
   title: string = '';
   description: string = '';
@@ -17,13 +16,14 @@ export class ContentComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((value) => (this.id = value.get('id')));
-    this.setValueToComponent(this.id)
+    this.setValueToComponent(this.id);
+    window.scrollTo(0, 0);
   }
 
-  setValueToComponent(id: string | null){
-    const result = mockData.filter(value =>value.id.toString() === this.id)
-    this.imgCover = result[0].imgCover
+  setValueToComponent(id: string | null) {
+    const result = mockData.filter((value) => value.id.toString() === this.id);
+    this.imgCover = result[0].imgCover;
     this.title = result[0].title;
     this.description = result[0].description;
-  };
+  }
 }
