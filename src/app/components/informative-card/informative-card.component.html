@@ -1,8 +1,6 @@
-<div class="container_informative-card">
+<div class="container_informative-card" *ngFor="let l of listIformatives">
   <div class="card_rigth-img">
-    <img
-      src={{imgCover}}
-      alt="" srcset="">
+    <img src={{l.imgCover}} alt="" srcset="">
   </div>
-  <h2 class="card_rigth-title"><a [routerLink]="['content', id]">{{title}}</a></h2>
+  <h2 class="card_rigth-title"><a [routerLink]="['content', l.id]">{{l.title}}</a></h2>
 </div>

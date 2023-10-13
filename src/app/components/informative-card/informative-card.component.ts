@@ -1,6 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-
+import { Component, OnInit } from '@angular/core';
+import { mockData } from 'src/app/data/mockData';
 @Component({
   selector: 'app-informative-card',
   templateUrl: './informative-card.component.html',
@@ -8,18 +7,17 @@ import { ActivatedRoute } from '@angular/router';
 })
 
 export class InformativeCardComponent implements OnInit {
-  @Input()
-  id:string = '0'
-  @Input()
+  id: string = '0';
   imgCover: string = '';
-  @Input()
   title: string = '';
-
-  constructor(
-    private route:ActivatedRoute
-  ) {}
+  listIformatives: any[] = mockData;
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe(value => console.log(value))
+    this.setLstInformatives(this.listIformatives);
+  }
+
+  setLstInformatives(lst: any[]) {
+    let result = lst.filter((value) => value.main === false);
+    this.listIformatives = result;
   }
 }

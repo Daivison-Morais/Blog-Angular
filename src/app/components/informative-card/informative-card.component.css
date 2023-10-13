@@ -2,12 +2,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .card_rigth-img {
   margin-right: 5px;
-  width: 43%;
+  min-width: 100px;
+  max-width: 19vw;
 }
 
 .card_rigth-img > img {
@@ -16,7 +17,12 @@
 }
 
 .container_informative-card > h2 > a {
-  font-size: 15px;
+  font-size: 14px;
+}
+.container_informative-card > h2{
+  padding: 0 6px;
+  line-height: 17px;
+  font-size: 14px;
 }
 
 

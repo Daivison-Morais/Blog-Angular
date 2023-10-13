@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, NavigationEnd } from '@angular/router';
 import { mockData } from '../../data/mockData';
 @Component({
   selector: 'app-content',
@@ -7,13 +7,10 @@ import { mockData } from '../../data/mockData';
   styleUrls: ['./content.component.css'],
 })
 export class ContentComponent implements OnInit {
-  @Input()
-  imgCover: string = '';
-  @Input()
-  title: string = '';
-  @Input()
-  description: string = '';
 
+  imgCover: string = '';
+  title: string = '';
+  description: string = '';
   private id: string | null = '0';
 
   constructor(private route: ActivatedRoute) {}

@@ -1,8 +1,11 @@
 .container-title-card{
   color: white;
-    padding: 10px;
-    font-size: 9vw;
+    font-size: 7vw;
     text-align: center;
-    border: 1px solid white;
     margin: 7px 0px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
 }

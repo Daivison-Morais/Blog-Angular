@@ -2,14 +2,19 @@
   display: flex;
 }
 
+.big_card-left{
+  margin-bottom: 35px;
+}
+
 .block-left-card {
   padding: 20px;
-  width: 54vw;
+  width: 50vw;
+  min-width: 50vw;
 }
 
 .block-rigth-card {
   padding: 20px;
-  width: 44vw;
+  width: 50vw;
 }
 
 .great-card-img > img {
@@ -21,6 +26,6 @@
   margin: 8px 0;
 }
 
-.great-card-description{
+.great-card-description > a{
   color: grey;
 }
